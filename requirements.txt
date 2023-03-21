@@ -6,3 +6,8 @@ Django==4.1
 
 # pip install -r requirements.txt - необходим для загрузки всех зависимостей для проекта
 # pip freeze - после установки для надёжности проверяю все, что установил
+# теперь будет доступна команда django admin
+#  django-admin startproject my_project - запускаем проект, появляется пака с файлами проекта
+# появился файл manage.py
+# python  manage.py startapp main_app создаём приложение
+# идем в settings.py, в INSTALLED_APPS прописываю новые созданные приложения
